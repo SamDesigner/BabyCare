@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_wrapper{
+    background-color:rgb(18, 55, 42);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(67, 104, 80);
+
+}
+
+.main_nav{
+    width: 80%;
+    margin: auto; 
+    color: white;
+    text-align: center;
+}
+.special_span{
+    color: rgb(67, 104, 80);
+}
+.hero_section{
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url('/images/teddy.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.hero_content{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 30vh;
+}
+.hero_content h1{
+    margin-top: 10px;
+    font-size: 45px;
+}
+.hero_content p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 28px;
+}
+.primary_btn{
+    background-color: rgb(18, 55, 42) ;
+    border: none;
+    color: white;
+    padding: 15px 34px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.primary_btn:hover{
+    background-color: rgb(18, 55, 42);
+}
+
+.about_section{
+    padding: 20vh 0;
+}
+.about_header{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(18, 55, 42);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.icon_section i{
+    background-color: rgb(18, 55, 42);
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+}
+.about_box{
+    display: inline-block;   
+    width: 28%;
+    padding: 20px 15px;
+    text-align: center;
+    margin: 10px;
+    background-color:rgb(173, 188, 159);
+}
+.about_box h3{
+    padding: 20px 0;
+}
+.about_box p{
+    font-size: 14px;
+}
+.first{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.second{
+    border-radius: 20px;
+}
+.last{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.ad_section{
+    height: 90vh;
+    overflow: hidden;
+}
+.ad_picture{
+    width: 50%;
+    float: left;
+}
+.ad_picture img{
+    height: 100%;
+    width: 100%;
+}
+.ad_text{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    color: white;
+   background-color: rgb(67, 104, 80);
+    
+}
+.ad_text h4{
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    color: rgb(67, 104, 80);
+}
